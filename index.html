@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristhian Vasquez Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Cristhian Vasquez-1 (2).png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Proyects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav> 
+        <div class="header-text">
+            <p>Developer</p>
+            <h1>Hi, im Cristhian Vasquez</h1>
+        </div> 
+    </div>
+
+</div>
+<!-----------about------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="IMG_7641.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+
+                <p>Hi, i'm Cristhian and I'm a Business Administrator graduate, i have gained a lot of experience in various aspects 
+                    of business operations, including project management, finance, and team leadership. However, I have always been 
+                    fascinated by the rapidly evolving field of information technology and its potential to transform the way 
+                    organizations operate. In recent years, I have been actively seeking opportunities to expand my knowledge and
+                    skills in IT, DevOps and Front-end development.I have taken courses in programming languages such as Python and
+                    DevOps principles, and im also familiar with HTML and CSS that had help me create responsive and user-friendly 
+                    websites. I would like to define myself by the work i want to do, i prefer to keep learning, constantly challenging
+                    myself to create interesting things that matter. I believe that my background in business administration, combined 
+                    with my interest in IT, would make me a valuable asset to any organization looking to improve its operations and 
+                    increase efficiency through the use of technology. With my knowledge of project management and team leadership, 
+                    I can ensure that the development process is efficient and effective, and that the final product meets the 
+                    requirements of all stakeholders.
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Python</span><br>Designing Python games<br>Web scraping<br>Binary search algorithm<br></li>
+                        <li><span>Linux</span><br>Terminal navigation</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - 2023</span><br>Hubtek - Backoffice</li>
+                        <li><span>2019 - 2022</span><br>Selecta group and Byluzda - Logistics</li>
+                        <li><span>2018</span><br>Konecta - Customer Service Representative</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Business Managment</span><br>Fundacion universitaria CEIPA</li>
+                        <li><span>Graduate</span><br>Colegio Benedictino de Santamaria</li>
+                        <li><span>English</span><br>Winston Salem B2</li>
+                        <li><span>Coursera</span><br>Python<br>Linux Fundamentals<br>Introduction to Git and GitHub<br>DevOps and Build Automation with Python</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------Portfolio------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="snake.png" >
+                <div class="layer">
+                    <h3>Snake Game on Python</h3>
+                    <p>A snake game created from scratch using the turtle module</p>
+                    <a href=""><i class="fa-solid fa-gamepad"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="web scraping2.png" >
+                <div class="layer">
+                    <h3>Web Scraping</h3>
+                    <p>Web scraping projects used to built datasets</p>
+                    <a href=""><i class="fa-solid fa-gears"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="webdesign.png" >
+                <div class="layer">
+                    <h3>Web designing</h3>
+                    <p>Web design used for my portfolio and for a entrepreneur e-comerce</p>
+                    <a href=""><i class="fa-solid fa-object-group"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-----------Contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> cristhianvasquez99@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +57 3193741203</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/cristhian229/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/cristhian-vasquez-8a786a183/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="CV Cristhian Vasquez.pdf" download class="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button style="background-color:#ff004f" type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Cristhian Vasquez <i class="fa-solid fa-fire"></i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
