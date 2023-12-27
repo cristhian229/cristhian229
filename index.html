@@ -7,6 +7,7 @@
     <title>Cristhian Vasquez Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="animaciones.js"></script>
 </head>
 <body>
 <div id="header">
@@ -23,6 +24,7 @@
         <div class="header-text">
             <p>Developer</p>
             <h1>Hi, im Cristhian Vasquez</h1>
+            <img src="Fotos/IMG_0466.HEIC" alt="">
         </div> 
     </div>
 
@@ -146,22 +148,6 @@
         <p>Copyright © Cristhian Vasquez <i class="fa-solid fa-fire"></i></p>
     </div>
 </div>
-
-<script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-</script>
 
 </body>
 </html>
